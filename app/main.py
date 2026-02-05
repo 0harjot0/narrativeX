@@ -6,15 +6,7 @@ from uuid import uuid4
 import asyncio
 import random
 
-# class TopicAgentState(TypedDict):
-#     traversal: TraversalState
-#     research_data: list[ResearchContext]
-#     user_preferences: str
-#     proposed_topics: list[Topic]
-#     creative_topics: list[Topic]
-#     selected_topic: Topic
 
-#     perform_creative: bool
 
 async def execute():
     memory = InMemorySaver()
@@ -39,3 +31,4 @@ async def execute():
 
 if __name__ == "__main__":
     asyncio.run(execute())
+    # //check again
